@@ -20,3 +20,6 @@ pic{
     /* font-family: 'Playfair Display', serif;
     src: url('./PlayfairDisplay-VariableFont_wght') format ('ttf'); */
 }
+img{
+    width: 400px;
+}
