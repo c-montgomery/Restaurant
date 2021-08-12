@@ -1,4 +1,22 @@
-html{
+/* @font-face {
+    font-family: 'Playfair Display', serif;;
+    src: url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap'); */
+/* } */
+@font-face {
+    font-family: 'WindSong', cursive;;
+    src: url('https://fonts.googleapis.com/css2?family=WindSong&display=swap');
+}
+#content{
     font-family: 'WindSong', cursive;
     src: url('./WindSong-Regular.ttf') format ('ttf');
+}
+.hello{
+    width: 100%;
+}
+pic{
+    background: url('chef.jpeg')
+}
+.leftSide{
+    /* font-family: 'Playfair Display', serif;
+    src: url('./PlayfairDisplay-VariableFont_wght') format ('ttf'); */
 }
