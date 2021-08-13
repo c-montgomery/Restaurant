@@ -17,7 +17,6 @@ function component() {
     leftSide.style.textAlign = 'center'
     leftSide.style.padding = '10px';
     leftSide.style.width = '70%';
-    leftSide.style.lineHeight = '30';
     leftSide.classList.add('leftSide');
     const myPic = new Image();
     myPic.src = pic;

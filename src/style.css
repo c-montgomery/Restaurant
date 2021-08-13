@@ -1,38 +1,67 @@
-/* @font-face {
-    font-family: 'Playfair Display', serif;;
-    src: url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap'); */
-/* } */
 @font-face {
-    font-family: 'WindSong', cursive;;
+    font-family: 'sofiapro-light';
+    src: url('sofiapro-light-webfont.woff2') format('woff2'),
+         url('sofiapro-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'quasimoda-light';
+    src: url('quasimoda-light-webfont.woff2') format('woff2'),
+         url('quasimoda-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+
+}
+@font-face {
+    font-family: 'WindSong', cursive;
     src: url('https://fonts.googleapis.com/css2?family=WindSong&display=swap');
 }
 #content{
-    font-family: 'WindSong', cursive;
-    src: url('./WindSong-Regular.ttf') format ('ttf');
+    font-family: 'quasimoda-light';
+    src: url('quasimoda-light-webfont.woff2') format('woff2'),
+         url('quasimoda-light-webfont.woff') format('woff');
 }
 .hello{
     width: 100%;
 }
-pic{
-    background: url('chef.jpeg')
-}
+
+
 .leftSide{
-    /* font-family: 'Playfair Display', serif;
-    src: url('./PlayfairDisplay-VariableFont_wght') format ('ttf'); */
-    font-family:cursive;
-    font-size: 1.5rem;
+    font-family: 'sofiapro-light';
+    src: url('sofiapro-light-webfont.woff2') format('woff2'),
+         url('sofiapro-light-webfont.woff') format('woff');
+    
+    font-size: 3rem;
+    line-height: 15;
 }
 img{
     height: 400px;
-    padding: 10px;
-    border: 1px gray solid;
+    border-left: 1px gray solid;
 }
 .menu{
     justify-items: center;
 }
 .address, p{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'sofiapro-light';
+    justify-content: center;
+    height: auto;
 }
 a:hover{
     cursor: pointer;
+}
+.paragraph{
+    width: 500px;
+    margin: auto;
+}
+.menuPic{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.menuText{
+    margin-bottom: 10px;
 }

@@ -16,7 +16,7 @@ function gotoAbout() {
     about.textContent = 'Badabucci\'s was created in 2005 when Geno Badabucci decided to '+
     'share his family\'s cooking traditions with the world.  ' +
     'Geno\'s cooking passion is now available to enjoy '+
-    '7 days a week. Stop in, say, \'hi\'';
+    '7 days a week.';
     
     body.appendChild(heading);
     heading.appendChild(chefPic);
