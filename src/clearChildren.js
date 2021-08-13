@@ -3,6 +3,8 @@ function clearChildren(){
     let menu = document.getElementsByClassName('menu');
     let para = document.getElementsByClassName('paragraph');
     let address = document.getElementsByClassName('address');
+    let chefPic = document.getElementsByClassName('chefPic');
+
     if (typeof deleted[0] !== 'undefined'){
         deleted[0].remove();
     }
@@ -14,6 +16,9 @@ function clearChildren(){
     }
     if (typeof address[0] !== 'undefined'){
         address[0].remove();
+    }
+    if (typeof chefPic[0] !== 'undefined'){
+        chefPic[0].remove();
     }
 }
 

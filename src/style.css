@@ -19,6 +19,8 @@ pic{
 .leftSide{
     /* font-family: 'Playfair Display', serif;
     src: url('./PlayfairDisplay-VariableFont_wght') format ('ttf'); */
+    font-family:cursive;
+    font-size: 1.5rem;
 }
 img{
     height: 400px;
@@ -28,7 +30,7 @@ img{
 .menu{
     justify-items: center;
 }
-.address{
+.address, p{
     font-family: 'Courier New', Courier, monospace;
 }
 a:hover{
