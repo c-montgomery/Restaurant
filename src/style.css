@@ -20,10 +20,13 @@
     font-family: 'WindSong', cursive;
     src: url('https://fonts.googleapis.com/css2?family=WindSong&display=swap');
 }
+
+
 #content{
     font-family: 'quasimoda-light';
     src: url('quasimoda-light-webfont.woff2') format('woff2'),
          url('quasimoda-light-webfont.woff') format('woff');
+    height: 100vh;
 }
 .hello{
     width: 100%;
@@ -60,6 +63,9 @@ a:hover{
 .menuPic{
     margin-top: 30px;
     margin-bottom: 10px;
+}
+.chefPic{
+    margin-top: 10px;
 }
 
 .menuText{

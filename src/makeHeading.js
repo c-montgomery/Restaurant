@@ -19,7 +19,8 @@ const makeHeader = () => {
     content.style.backgroundColor = 'lightgrey'
     content.style.fontFamily = ''
 
-    heading.style.fontSize = '40px'
+    heading.style.fontSize = '40px';
+    heading.classList = 'heading'
 
     nav.style.justifyContent = 'space-around';
     nav.style.display = 'flex'
