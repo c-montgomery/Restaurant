@@ -1,5 +1,6 @@
 import { gotoMenu } from "./gotoMenu";
 import { gotoAbout } from "./gotoAbout";
+import { gotoContact} from './gotoContact'
 
 // Makes header to be constructed on every page
 const makeHeader = () => {
@@ -11,7 +12,7 @@ const makeHeader = () => {
     let about = document.createElement('a')
 
     menu.addEventListener('click', gotoMenu);
-    // contact.addEventListener('click', gotoContact);
+    contact.addEventListener('click', gotoContact);
     about.addEventListener('click', gotoAbout);
 
     content.style.textAlign = 'center';

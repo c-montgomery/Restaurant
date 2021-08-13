@@ -28,6 +28,9 @@ img{
 .menu{
     justify-items: center;
 }
+.address{
+    font-family: 'Courier New', Courier, monospace;
+}
 a:hover{
     cursor: pointer;
 }
