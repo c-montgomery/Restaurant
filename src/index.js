@@ -21,6 +21,7 @@ function component() {
     leftSide.classList.add('leftSide');
     const myPic = new Image();
     myPic.src = pic;
+    myPic.style.height = '100%'
     myPic.textContent = 'BADABUCCI!'
     element.appendChild(leftSide)
     element.appendChild(myPic);

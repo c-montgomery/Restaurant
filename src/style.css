@@ -21,5 +21,13 @@ pic{
     src: url('./PlayfairDisplay-VariableFont_wght') format ('ttf'); */
 }
 img{
-    width: 400px;
+    height: 400px;
+    padding: 10px;
+    border: 1px gray solid;
+}
+.menu{
+    justify-items: center;
+}
+a:hover{
+    cursor: pointer;
 }
