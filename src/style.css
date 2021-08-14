@@ -39,7 +39,12 @@
          url('sofiapro-light-webfont.woff') format('woff');
     
     font-size: 3rem;
-    line-height: 15;
+    width: min-content;
+    align-items: center;
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    justify-content: space-around;
 }
 img{
     height: 400px;
@@ -47,6 +52,12 @@ img{
 }
 .menu{
     justify-items: center;
+}
+.twoCooks{
+    border-top: 1px solid grey;
+    padding-top: 25px;
+    margin-bottom: -25px;
+    border-left: none;
 }
 .address, p{
     font-family: 'sofiapro-light';

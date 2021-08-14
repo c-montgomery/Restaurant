@@ -1,6 +1,7 @@
 import { makeHeader } from "./makeHeading";
 import "./style.css";
 import pic from './chef.jpeg'
+import picTwoCooks from './cooks.jpg'
 
 //Constructs landing page on initial visit
 function makeLanding() {
@@ -16,19 +17,19 @@ function makeLanding() {
     leftSide.style.backgroundColor = 'black';
     leftSide.style.color = 'darkgrey';
     leftSide.textContent = 'It\'ll leave you saying, \"Badabucci\!\"'
-    leftSide.style.textAlign = 'center'
-    leftSide.style.width = '70%';
     leftSide.classList.add('leftSide');
 
+    const twoCooks = new Image();
+    twoCooks.src =picTwoCooks;
+    twoCooks.classList = 'twoCooks'
     const myPic = new Image();
     myPic.src = pic;
     myPic.style.height = '100%'
     myPic.textContent = 'BADABUCCI!'
 
-    console.log(element)
-    console.log(heading)
 
-    element.appendChild(leftSide)
+    element.appendChild(leftSide);
+    leftSide.appendChild(twoCooks);
     element.appendChild(myPic);
     heading.appendChild(element)
 
