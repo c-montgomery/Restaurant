@@ -15,7 +15,6 @@ function makeLanding() {
     element.style.flexDirection = 'row';
 
     leftSide.style.backgroundColor = 'black';
-    leftSide.style.color = 'darkgrey';
     leftSide.textContent = 'It\'ll leave you saying, \"Badabucci\!\"'
     leftSide.classList.add('leftSide');
 
@@ -24,8 +23,8 @@ function makeLanding() {
     twoCooks.classList = 'twoCooks'
     const myPic = new Image();
     myPic.src = pic;
-    myPic.style.height = '100%'
-    myPic.textContent = 'BADABUCCI!'
+    myPic.style.height = '100%';
+    myPic.classList = 'steakPic';
 
 
     element.appendChild(leftSide);

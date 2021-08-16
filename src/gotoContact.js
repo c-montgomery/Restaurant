@@ -16,13 +16,10 @@ function gotoContact(){
     iframe.style.height = '500px';
     iframe.style.width = '500px';
     iframe.style.border = 'none';
-    iframe.style.margin = '10px';
 
     let flexAddress = document.createElement('div');
     flexAddress.style.display = 'flex';
     flexAddress.style.flexDirection = 'column';
-    flexAddress.style.alignItems = 'center';
-    flexAddress.style.justifyContent = 'center';
     flexAddress.style.flex = '1';
 
     let name = document.createElement('p');
@@ -45,7 +42,7 @@ function gotoContact(){
 
     let email = document.createElement('a');
     email.setAttribute('href', 'mailto:fakeperson@fakeaddress.com');
-    email.textContent = 'email';
+    email.textContent = 'fakeperson@fakeaddress.com';
     email.style.color = 'white';
 
     let phone = document.createElement('a');
